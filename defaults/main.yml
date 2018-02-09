@@ -1,0 +1,9 @@
+---
+# defaults file for telegraf
+
+template_location: templates/base.conf
+
+kafka:
+  broker: localhost
+  port: 9092
+  topic: example
